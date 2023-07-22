@@ -46,7 +46,7 @@ This script is a bash script that exports environments from YAML files to Conda 
 2. Make sure you have Conda installed on your system.
 3. Run the script by executing the following command in the terminal:
 
-bash Export_enviroments.sh
+   bash Export_enviroments.sh
 
 ### Notes
 
@@ -79,7 +79,7 @@ This script is a bash script for performing quality control and preprocessing of
 
 3. Run the script with the following command:
 
-bash Quality_control.sh input_file_1.fastq.gz input_file_2.fastq.gz
+   bash Quality_control.sh input_file_1.fastq.gz input_file_2.fastq.gz
 
 Replace input_file_1.fastq.gz and input_file_2.fastq.gz with the actual paths to your raw paired-end fastq files.
 
@@ -117,7 +117,7 @@ Run Python script:
 
 2. Create the necessary result directories:
    - Run the script to create directories for assembly and kraken2 results:
-   bash Assemble.sh
+         bash Assembly.sh
 
 ### Notes
 
@@ -183,7 +183,7 @@ This bash script performs sequence analysis and constructs a phylogenetic tree u
 ### Usage
 
 Run the script:
-   Analysis.sh
+   bash Analysis.sh
 
 ### Notes
 

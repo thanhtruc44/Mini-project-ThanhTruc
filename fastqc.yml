@@ -1,4 +1,0 @@
-name: fastqc
-channels:
-  - defaults
-prefix: /root/anaconda3/envs/fastqc

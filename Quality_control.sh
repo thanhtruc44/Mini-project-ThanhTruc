@@ -43,4 +43,4 @@ mv fastp.json $Trim
 
 #Quality control after trimming
 
-conda run -n fastp fastqc fastqc $Trim/input1_trimmed.fastq.gz $Trim/input2_trimmed.fastq.gz -o $QC_after_trim
+conda run -n fastqc fastqc $Trim/input1_trimmed.fastq.gz $Trim/input2_trimmed.fastq.gz -o $QC_after_trim

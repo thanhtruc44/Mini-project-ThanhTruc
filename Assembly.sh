@@ -16,8 +16,9 @@ conda run -n spades spades --rna -1 ./result/Quality_control/Trimming/input1_tri
 
 
 #Filter contig by kraken2 tool
-#Database virus: download at https://benlangmead.github.io/aws-indexes/k2 "Viral" 0.6GB và unzip by wget command
-
+#Database virus
+wget https://genome-idx.s3.amazonaws.com/kraken/k2_viral_20230605.tar.gz
+tar -zxvf k2_viral_20230605.tar.gz
 kraken2_version=$(conda run -n kraken2 kraken2 --version)
 echo $kraken2_version >> version.txt
 conda run -n kraken2 kraken2 --db virus --threads 8 --report $Kraken2/kraken2_report --output $Kraken2/kraken2_output $Spades/transcripts.fasta

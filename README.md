@@ -193,6 +193,10 @@ Run the script:
 
 3. Make sure you have downloaded the BV-BRC database file 'Genome_Tembusu_BVBRC_db.fasta' for "tembusu virus genome" and placed it in the working directory.
 
+# Trung's COMMENTS
+***Một điều quan trọng đã nhắc: ko commit dữ liệu hay data nặng lên github. Nên up lên 1 nền tảng drive hay đám mây và share link***
+
+
 
 
 
